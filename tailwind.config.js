@@ -14,7 +14,7 @@ module.exports = {
       animation: {
         'bounce-slow': 'bounce 6s linear infinite',
         'spin-slow': 'spin 6s linear infinite',
-        'floating': 'float 6s ease-in-out infinite',
+        'floating': 'float 4s ease-in-out infinite',
         'zooming': 'zoom 0.1s ease-in-out 1 forwards',
       },
       keyframes: {

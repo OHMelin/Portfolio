@@ -1,5 +1,7 @@
 import React from 'react';
 import Floating from '../assets/floating.png';
+import Tpose from '../assets/tpose.png'
+import Meditate from '../assets/meditate.png'
 import {
     FaGithub,
     FaLinkedin,
@@ -12,11 +14,11 @@ const Hero = () => {
         <div className='py-32 p-4 max-w-[1440px] m-auto'>
             <div className='grid lg:grid-cols-2 md:grid-cols-1'>
                 <div className='flex flex-col'>
-                    <h1 className='text-6xl font-bold font-handwriting'>OHMelin</h1>
+                    <h1 className='text-6xl font-bold font-handwriting'>Oliver Melin</h1>
                     <p className='py-4'>Hi, my name is Oliver. I study Computer science in Denmark. I like to work on my own projects in my spare time, you can read more about those beneath. For fun, I like being around my friends or being active either in the gym or out running.</p>
                 </div>
                 <div className='flex lg:justify-end h-[100%] py-8'>
-                    <img className='animate-floating m-auto lg:ml-0 lg:mr-0 max-h-[200px] max-w-[200px]' src={Floating} alt="Portrait" />
+                    <img className='animate-floating m-auto lg:ml-0 lg:mr-0 max-h-[400px] max-w-[400px]' src={Meditate} alt="Portrait" />
                 </div>
             </div>
 
