@@ -42,7 +42,7 @@ const projects = [
         logo: StatsViewer,
         title: 'StatsViewer',
         subtitle: '.NET statistics application',
-        desc: 'A simple application to keep track of our statistics for the AFk Console Client.',
+        desc: 'A simple application to keep track of our statistics for the AFK Console Client.',
         tech: [],
     },
 ];
