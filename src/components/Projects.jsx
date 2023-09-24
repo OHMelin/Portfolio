@@ -12,7 +12,7 @@ const projects = [
         subtitle: 'Electron application',
         desc: 'A free and easy to use AFK manager application. We\'re developing a paid web version.',
         tech: [],
-        link: 'http://minecraftafk.com',
+        link: 'https://minecraftafk.com',
     },
     {
         logo: TouchGrass,
