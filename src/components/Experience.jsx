@@ -9,6 +9,7 @@ import DeviconTailwindcss from '../assets/experience/DeviconTailwindcss.svg'
 import DeviconSass from '../assets/experience/DeviconSass.svg'
 import LogosAdobePhotoshop from '../assets/experience/LogosAdobePhotoshop.svg'
 import LogosAdobeXd from '../assets/experience/LogosAdobeXd.svg'
+import DeviconBootstrap from '../assets/experience/DeviconBootstrap.svg'
 
 const Experience = () => {
     return (
@@ -18,6 +19,7 @@ const Experience = () => {
                 <div className='py-4 flex justify-around flex-wrap gap-4'>
                     <img className='hover:animate-zooming' src={LogosReact} alt="" width={100} />
                     <img className='hover:animate-zooming' src={DeviconAngular} alt="" width={100} />
+                    <img className='hover:animate-zooming' src={DeviconBootstrap} alt="" width={100} />
                     <img className='hover:animate-zooming' src={DeviconTailwindcss} alt="" width={100} />
                     <img className='hover:animate-zooming' src={DeviconSass} alt="" width={100} />
                     <img className='hover:animate-zooming' src={DeviconHtml5} alt="" width={100} />
