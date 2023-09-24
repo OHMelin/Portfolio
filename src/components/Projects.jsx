@@ -100,7 +100,7 @@ const Projects = () => {
           })}
         </ul>
         <p className="my-6">{project.desc}</p>
-        <button className="w-full rounded-md bg-primary bg-opacity-50 p-2">More Details</button>
+        <button className="w-full rounded-md bg-primary bg-opacity-50 p-2 hover:bg-middle hover:bg-opacity-50">More Details</button>
       </div>
     );
   });
