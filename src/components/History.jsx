@@ -137,7 +137,7 @@ const History = () => {
           <TimelineConnector sx={isBottom} />
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2 }}>
-          <Typography variant="h6" component="span" fontWeight={600}>
+          <Typography className='break-all' variant="h6" component="span" fontWeight={600}>
             {history.title}
           </Typography>
           <Typography fontSize={13}>{history.desc}</Typography>
@@ -147,7 +147,8 @@ const History = () => {
   })
 
   return (
-    <div>
+    <div className='py-32'>
+      <h2 className='text-center font-bold text-2xl pb-4'>Timeline</h2>
       <Timeline position="//alternate">
         {historyList}      
       </Timeline>

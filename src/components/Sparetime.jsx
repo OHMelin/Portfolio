@@ -19,19 +19,19 @@ const icons = [
     },
     {
         logo: FaCode,
-        tooltip: 'Coding',
+        tooltip: 'Programming',
     },
     {
         logo: FaDumbbell,
-        tooltip: 'Training',
+        tooltip: 'Working out',
     },
     {
         logo: FaMusic,
-        tooltip: 'Music',
+        tooltip: 'Listening to music',
     },
     {
         logo: FaGlassCheers,
-        tooltip: 'Fun',
+        tooltip: 'Fun with friends',
     },
 ]
 
@@ -51,7 +51,7 @@ const Sparetime = () => {
       <div className='p-4 bg-secondary'>
           <div className='max-w-[1440px] m-auto'>
               <h2 className='text-center font-bold text-2xl pb-4'>Sparetime</h2>
-              <div className='flex justify-between'>
+              <div className='py-8 flex justify-around flex-wrap gap-4'>
                 {iconList}
               </div>
           </div>
