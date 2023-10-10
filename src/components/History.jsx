@@ -147,7 +147,7 @@ const History = () => {
   })
 
   return (
-    <div className='py-32'>
+    <div className='py-32 p-4 max-w-[1440px] m-auto'>
       <h2 className='text-center font-bold text-2xl pb-4'>Timeline</h2>
       <Timeline position="//alternate">
         {historyList}      
