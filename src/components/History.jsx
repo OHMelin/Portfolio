@@ -11,6 +11,7 @@ import {
   FaDiceD6,
   FaBook,
   FaBaby,
+  FaBriefcase,
 } from 'react-icons/fa'
 
 const histories = [
@@ -47,6 +48,13 @@ const histories = [
     date: 'Feb. 2022 - Now',
     icon: FaBook,
     color: 'error',
+  },
+  {
+    title: 'Backend Developer Intern',
+    desc: 'Coolshop',
+    date: 'Jan. 2022 - Mar. 2022',
+    icon: FaBriefcase,
+    color: 'secondary',
   },
   {
     title: 'Slinghockey',

@@ -1,5 +1,6 @@
 import React from 'react'
-import ACC from '../assets/projects/ACC.png'
+import ACCLocal from '../assets/projects/ACCLocal.png'
+import ACCWeb from '../assets/projects/ACCWeb.png'
 import GraveOfAnubis from '../assets/projects/GraveOfAnubis.png'
 import StatsViewer from '../assets/projects/StatsViewer.png'
 import Valoks from '../assets/projects/Valoks.png'
@@ -7,12 +8,20 @@ import TouchGrass from '../assets/projects/TouchGrass.png'
 
 const projects = [
     {
-        logo: ACC,
-        title: 'AFK Console Client',
-        subtitle: 'Electron application',
-        desc: 'A free and easy to use AFK manager application. We\'re developing a paid web version.',
+        logo: ACCLocal,
+        title: 'ACC - Local',
+        subtitle: 'Minecraft AFK Console Client',
+        desc: 'A free and easy to use application to manage and AFK with your Minecraft accounts.',
         tech: [],
-        link: 'https://minecraftafk.com',
+        link: 'https://minecraftafk.com/free',
+    },
+    {
+        logo: ACCWeb,
+        title: 'ACC - Web',
+        subtitle: 'Minecraft AFK Console Client',
+        desc: 'A cloud application to easily manage and AFK with your Minecraft accounts from any device.',
+        tech: [],
+        link: 'https://minecraftafk.com/web',
     },
     {
         logo: TouchGrass,
@@ -52,10 +61,11 @@ const Projects = () => {
     return (
       <div className={`w-full h-full p-4 rounded-md bg-gradient-to-t bg-opacity-100 border-opacity-50 flex flex-col border
         ${i === 0 ? "bg-[#1c8840] border-[#2ee86e]" : ""}
-        ${i === 1 ? "bg-[#54342d] border-[#a37c5f]" : ""}
-        ${i === 2 ? "bg-[#2c4a9a] border-[#009fe3]" : ""}
-        ${i === 3 ? "bg-[#736f17] border-[#fff734]" : ""}
-        ${i === 4 ? "bg-[#4e4e4e] border-[#ababab]" : ""}`}>
+        ${i === 1 ? "bg-[#4e4e4e] border-[#ababab]" : ""}
+        ${i === 2 ? "bg-[#54342d] border-[#a37c5f]" : ""}
+        ${i === 3 ? "bg-[#2c4a9a] border-[#009fe3]" : ""}
+        ${i === 4 ? "bg-[#736f17] border-[#fff734]" : ""}
+        ${i === 5 ? "bg-[#62325e] border-[#ff97d2]" : ""}`}>
         <div className='flex flex-row items-center'>
           <img className="w-[25%] inline-block mr-4" src={project.logo} alt="" />
           <div className=''>
