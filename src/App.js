@@ -1,22 +1,17 @@
 import React from 'react';
-import Hero from './components/Hero';
-import Experience from './components/Experience';
-import Projects from './components/Projects';
-import Footer from './components/Footer';
-import Contact from './components/Contact';
-import History from './components/History';
-import Sparetime from './components/Sparetime';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home'
+import PageNotFound from './pages/PageNotFound'
 
 function App() {
   return (
     <div>
-      <Hero />
-      <Experience />
-      <Projects />
-      <Sparetime />
-      <History />
-      <Contact />
-      <Footer />
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path='*' element={<PageNotFound />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
