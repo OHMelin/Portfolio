@@ -22,6 +22,13 @@ const histories = [
   //  icon: FaGithub,
   //},
   {
+    title: 'Developer',
+    desc: 'Coolshop',
+    date: 'Aug. 2024 - Now',
+    icon: FaBriefcase,
+    color: 'secondary',
+  },
+  {
     title: 'Valoks',
     desc: 'Software company',
     date: 'Apr. 2023 - Now',
@@ -41,13 +48,6 @@ const histories = [
     date: 'Aug. 2022 - Now',
     icon: FaDiceD6,
     color: 'primary',
-  },
-  {
-    title: 'Developer',
-    desc: 'Coolshop',
-    date: 'Aug. 2024 - Now',
-    icon: FaBriefcase,
-    color: 'secondary',
   },
   {
     title: 'Student Assistant, IT Development',
