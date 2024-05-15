@@ -1,10 +1,10 @@
 import React from 'react'
-import ACCLocal from '../assets/projects/ACCLocal.png'
-import ACCWeb from '../assets/projects/ACCWeb.png'
-import GraveOfAnubis from '../assets/projects/GraveOfAnubis.png'
-import StatsViewer from '../assets/projects/StatsViewer.png'
-import Valoks from '../assets/projects/Valoks.png'
-import TouchGrass from '../assets/projects/TouchGrass.png'
+import ACCLocal from '../../assets/projects/ACCLocal.png'
+import ACCWeb from '../../assets/projects/ACCWeb.png'
+import GraveOfAnubis from '../../assets/projects/GraveOfAnubis.png'
+import StatsViewer from '../../assets/projects/StatsViewer.png'
+import Valoks from '../../assets/projects/Valoks.png'
+import TouchGrass from '../../assets/projects/TouchGrass.png'
 
 const projects = [
     {

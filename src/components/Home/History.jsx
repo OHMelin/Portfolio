@@ -22,7 +22,7 @@ const histories = [
   //  icon: FaGithub,
   //},
   {
-    title: 'Developer',
+    title: 'Software Developer',
     desc: 'Coolshop',
     date: 'Aug. 2024 - Now',
     icon: FaBriefcase,

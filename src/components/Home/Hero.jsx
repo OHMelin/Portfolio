@@ -1,5 +1,5 @@
 import React from 'react';
-import Meditate from '../assets/poses/meditate.png'
+import Meditate from '../../assets/poses/meditate.png'
 import {
     FaGithub,
     FaLinkedin,

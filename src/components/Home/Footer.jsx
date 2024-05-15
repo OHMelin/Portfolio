@@ -1,8 +1,8 @@
 import React from 'react'
-import LogosReact from '../assets/experience/LogosReact.svg'
-import DeviconTailwindcss from '../assets/experience/DeviconTailwindcss.svg'
-import MaterialSymbolsFavoriteRounded from '../assets/experience/MaterialSymbolsFavoriteRounded.svg'
-import SimpleIconsMui from '../assets/experience/SimpleIconsMui.svg'
+import LogosReact from '../../assets/experience/LogosReact.svg'
+import DeviconTailwindcss from '../../assets/experience/DeviconTailwindcss.svg'
+import MaterialSymbolsFavoriteRounded from '../../assets/experience/MaterialSymbolsFavoriteRounded.svg'
+import SimpleIconsMui from '../../assets/experience/SimpleIconsMui.svg'
 
 const Footer = () => {
   return (

@@ -1,11 +1,11 @@
 import React from 'react';
-import Hero from '../components/Hero';
-import Experience from '../components/Experience';
-import Projects from '../components/Projects';
-import Footer from '../components/Footer';
-import Contact from '../components/Contact';
-import History from '../components/History';
-import Sparetime from '../components/Sparetime';
+import Hero from '../components/Home/Hero';
+import Experience from '../components/Home/Experience';
+import Projects from '../components/Home/Projects';
+import Footer from '../components/Home/Footer';
+import Contact from '../components/Home/Contact';
+import History from '../components/Home/History';
+import Sparetime from '../components/Home/Sparetime';
 
 function Home() {
   return (
