@@ -65,7 +65,7 @@ const Projects = () => {
         ${i === 2 ? "bg-[#54342d] border-[#a37c5f]" : ""}
         ${i === 3 ? "bg-[#2c4a9a] border-[#009fe3]" : ""}
         ${i === 4 ? "bg-[#736f17] border-[#fff734]" : ""}
-        ${i === 5 ? "bg-[#62325e] border-[#ff97d2]" : ""}`}>
+        ${i === 5 ? "bg-[#62325e] border-[#ff97d2]" : ""}`} key={project.title}>
         <div className='flex flex-row items-center'>
           <img className="w-[25%] inline-block mr-4" src={project.logo} alt="" />
           <div className=''>

@@ -64,6 +64,13 @@ const histories = [
     color: 'secondary',
   },
   {
+    title: 'Tutor',
+    desc: 'UCN',
+    date: 'Aug. 2022 - Nov. 2022',
+    icon: FaBook,
+    color: 'error',
+  },
+  {
     title: 'Computer Science',
     desc: 'UCN',
     date: 'Feb. 2022 - Jun. 2024',
@@ -142,7 +149,7 @@ const History = () => {
     const isTop = i === 0                                           ? {display: 'none'} : {}
     const isBottom = i === histories.length-1                       ? {display: 'none'} : {}
     return (
-      <TimelineItem sx={isNow}>
+      <TimelineItem sx={isNow} key={history.title}>
         <TimelineOppositeContent
           sx={{ m: 'auto 0' }}
           align="right"
@@ -171,7 +178,7 @@ const History = () => {
   return (
     <div className='py-32 p-4 max-w-[1440px] m-auto'>
       <h2 className='text-center font-bold text-2xl pb-4'>Timeline</h2>
-      <Timeline position="//alternate">
+      <Timeline position="right">
         {historyList}      
       </Timeline>
     </div>

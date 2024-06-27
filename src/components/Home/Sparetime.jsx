@@ -36,12 +36,12 @@ const icons = [
 ]
 
 const Sparetime = () => {
-    const iconList = icons.map((iconnn) => {
-        const SpecificIcon = iconnn.logo;
+    const iconList = icons.map((icon) => {
+        const SpecificIcon = icon.logo;
 
         return (
-            <div className='has-tooltip flex justify-center'>
-                <span class='tooltip -mt-12 bg-primary rounded-md p-1 px-2 justify-center'>{iconnn.tooltip}</span>
+            <div className='has-tooltip flex justify-center' key={icon.tooltip}>
+                <span className='tooltip -mt-12 bg-primary rounded-md p-1 px-2 justify-center'>{icon.tooltip}</span>
                 <SpecificIcon className='hover:animate-zooming' size={50}  />
             </div>
         )

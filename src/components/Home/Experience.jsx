@@ -91,8 +91,8 @@ const icons = [
 const Experience = () => {
     const iconList = icons.map((icon) => {
         return (
-            <div className='has-tooltip flex justify-center'>
-                <span class='tooltip -mt-12 bg-primary rounded-md p-1 px-2 justify-center'>{icon.tooltip}</span>
+            <div className='has-tooltip flex justify-center' key={icon.tooltip}>
+                <span className='tooltip -mt-12 bg-primary rounded-md p-1 px-2 justify-center'>{icon.tooltip}</span>
                 <img className='hover:animate-zooming rounded-lg' src={icon.logo} alt="" width={100} />
             </div>
         )
