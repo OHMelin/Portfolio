@@ -1,2 +1,2 @@
 # Portfolio
-My react & tailwind portfolio. Feel free to take inspiration!
+My React & Tailwind portfolio. Feel free to take inspiration!
