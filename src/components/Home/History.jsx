@@ -22,13 +22,6 @@ const histories = [
   //  icon: FaGithub,
   //},
   {
-    title: 'Software Developer',
-    desc: 'Coolshop',
-    date: 'Aug. 2024 - Now',
-    icon: FaBriefcase,
-    color: 'secondary',
-  },
-  {
     title: 'Valoks',
     desc: 'Software company',
     date: 'Apr. 2023 - Now',
@@ -48,6 +41,27 @@ const histories = [
     date: 'Aug. 2022 - Now',
     icon: FaDiceD6,
     color: 'primary',
+  },
+  {
+    title: 'Web development',
+    desc: 'UCN',
+    date: 'Sep. 2024 - Now',
+    icon: FaBook,
+    color: 'error',
+  },
+  {
+    title: 'Student Assistant, IT Development',
+    desc: 'Coolshop',
+    date: 'Sep. 2024 - Now',
+    icon: FaBriefcase,
+    color: 'secondary',
+  },
+  {
+    title: 'Software Developer',
+    desc: 'Coolshop',
+    date: 'Aug. 2024 - Aug. 2024',
+    icon: FaBriefcase,
+    color: 'secondary',
   },
   {
     title: 'Student Assistant, IT Development',

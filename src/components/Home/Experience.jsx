@@ -1,89 +1,94 @@
 import React from 'react';
-import DeviconAngular from '../../assets/experience/DeviconAngular.svg'
-import DeviconCsharp from '../../assets/experience/DeviconCsharp.svg'
-import DeviconCss3 from '../../assets/experience/DeviconCss3.svg'
-import DeviconHtml5 from '../../assets/experience/DeviconHtml5.svg'
-import DeviconJava from '../../assets/experience/DeviconJava.svg'
-import LogosReact from '../../assets/experience/LogosReact.svg'
-import DeviconTailwindcss from '../../assets/experience/DeviconTailwindcss.svg'
-import DeviconSass from '../../assets/experience/DeviconSass.svg'
-import DeviconDotnetcore from '../../assets/experience/DeviconDotnetcore.svg'
-import LogosAdobePhotoshop from '../../assets/experience/LogosAdobePhotoshop.svg'
-import LogosAdobeXd from '../../assets/experience/LogosAdobeXd.svg'
-import LogosPython from '../../assets/experience/LogosPython.svg'
-import LogosDjango from '../../assets/experience/LogosDjangoIcon.svg'
-import LogosAwsS3 from '../../assets/experience/LogosAwsS3.svg'
-import LogosAwsCloudfront from '../../assets/experience/LogosAwsCloudfront.svg'
-// import LogosJavascript from '../../assets/experience/LogosJavascript.svg'
-// import LogosTypescript from '../../assets/experience/LogosTypescriptIcon.svg'
+import Angular from '../../assets/experience/angular.svg'
+import Csharp from '../../assets/experience/c_sharp.svg'
+import Css from '../../assets/experience/css.svg'
+import Html from '../../assets/experience/html.svg'
+import Java from '../../assets/experience/java.svg'
+import LogosReact from '../../assets/experience/react.svg'
+import Tailwind from '../../assets/experience/tailwind.svg'
+import Sass from '../../assets/experience/sass.svg'
+import DotNetCore from '../../assets/experience/dot_net_core.svg'
+import Photoshop from '../../assets/experience/photoshop.svg'
+import Xd from '../../assets/experience/xd.svg'
+import Python from '../../assets/experience/python.svg'
+import Django from '../../assets/experience/django.svg'
+import S3 from '../../assets/experience/aws_s3.svg'
+import Cloudfront from '../../assets/experience/aws_cloudfront.svg'
+import Vue from '../../assets/experience/vue.svg'
+import Javascript from '../../assets/experience/javascript.svg'
+import Typescript from '../../assets/experience/typescript.svg'
 
 const icons = [
+    {
+        logo: Vue,
+        tooltip: 'Vue',
+    },
     {
         logo: LogosReact,
         tooltip: 'React',
     },
     {
-        logo: DeviconAngular,
+        logo: Angular,
         tooltip: 'Angular',
     },
     {
-        logo: DeviconTailwindcss,
-        tooltip: 'TailwindCSS',
-    },
-    {
-        logo: DeviconSass,
+        logo: Sass,
         tooltip: 'Sass',
     },
     {
-        logo: DeviconHtml5,
+        logo: Tailwind,
+        tooltip: 'TailwindCSS',
+    },
+    {
+        logo: Html,
         tooltip: 'HTML',
     },
     {
-        logo: DeviconCss3,
+        logo: Css,
         tooltip: 'CSS',
     },
-    // {
-    //     logo: LogosJavascript,
-    //     tooltip: 'JavaScript',
-    // },
-    // {
-    //     logo: LogosTypescript,
-    //     tooltip: 'TypeScript',
-    // },
     {
-        logo: LogosAdobePhotoshop,
+        logo: Photoshop,
         tooltip: 'Photoshop',
     },
     {
-        logo: LogosAdobeXd,
+        logo: Xd,
         tooltip: 'AdobeXD',
     },
     {
-        logo: DeviconJava,
+        logo: Javascript,
+        tooltip: 'JavaScript',
+    },
+    {
+        logo: Typescript,
+        tooltip: 'TypeScript',
+    },
+    {
+        logo: Java,
         tooltip: 'Java',
     },
     {
-        logo: DeviconCsharp,
+        logo: Csharp,
         tooltip: 'C#',
     },
     {
-        logo: DeviconDotnetcore,
+        logo: DotNetCore,
         tooltip: '.NET core',
     },
     {
-        logo: LogosPython,
+        logo: Python,
         tooltip: 'Python',
     },
     {
-        logo: LogosDjango,
+        logo: Django,
         tooltip: 'Django',
     },
     {
-        logo: LogosAwsS3,
+        logo: S3,
         tooltip: 'AWS S3',
     },
     {
-        logo: LogosAwsCloudfront,
+        logo: Cloudfront,
         tooltip: 'AWS CloudFront',
     },
 ]
@@ -93,7 +98,7 @@ const Experience = () => {
         return (
             <div className='has-tooltip flex justify-center' key={icon.tooltip}>
                 <span className='tooltip -mt-12 bg-primary rounded-md p-1 px-2 justify-center'>{icon.tooltip}</span>
-                <img className='hover:animate-zooming rounded-lg' src={icon.logo} alt="" width={100} />
+                <img className='hover:animate-zooming rounded-lg' src={icon.logo} alt="" width={80} />
             </div>
         )
     })

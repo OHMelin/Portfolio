@@ -1,6 +1,6 @@
 import React from 'react'
 import {
-    FaRunning,
+    FaCarrot,
     FaBookReader,
     FaCode,
     FaDumbbell,
@@ -9,10 +9,6 @@ import {
 } from 'react-icons/fa'
 
 const icons = [
-    {
-        logo: FaRunning,
-        tooltip: 'Running',
-    },
     {
         logo: FaBookReader,
         tooltip: 'Reading',
@@ -24,6 +20,10 @@ const icons = [
     {
         logo: FaDumbbell,
         tooltip: 'Working out',
+    },
+    {
+        logo: FaCarrot,
+        tooltip: 'Eating',
     },
     {
         logo: FaMusic,
