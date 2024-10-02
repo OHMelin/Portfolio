@@ -22,6 +22,13 @@ const histories = [
   //  icon: FaGithub,
   //},
   {
+    title: 'Vue Boilerplate',
+    desc: 'SaaS boilerplate in Vue',
+    date: 'Oct. 2024 - Now',
+    icon: FaDiceD6,
+    color: 'primary',
+  },
+  {
     title: 'Valoks',
     desc: 'Software company',
     date: 'Apr. 2023 - Now',
@@ -29,15 +36,15 @@ const histories = [
     color: 'primary',
   },
   {
-    title: 'TouchGrass',
-    desc: 'Selling artificial grass online',
+    title: 'Touch Grass Store',
+    desc: 'Selling artificial grass',
     date: 'Nov. 2022 - Now',
     icon: FaDiceD6,
     color: 'primary',
   },
   {
-    title: 'ACC',
-    desc: 'Minecraft AFK Console Client',
+    title: 'AFK Console Client',
+    desc: 'Minecraft AFK Client',
     date: 'Aug. 2022 - Now',
     icon: FaDiceD6,
     color: 'primary',
