@@ -170,7 +170,7 @@ const History = () => {
     const isTop = i === 0                                           ? {display: 'none'} : {}
     const isBottom = i === histories.length-1                       ? {display: 'none'} : {}
     return (
-      <TimelineItem sx={isNow} key={history.title}>
+      <TimelineItem sx={isNow} key={`${history.title}-${i}`}>
         <TimelineOppositeContent
           sx={{ m: 'auto 0' }}
           align="right"
