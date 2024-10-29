@@ -17,6 +17,7 @@ import Cloudfront from '../../assets/experience/aws_cloudfront.svg'
 import Vue from '../../assets/experience/vue.svg'
 import Javascript from '../../assets/experience/javascript.svg'
 import Typescript from '../../assets/experience/typescript.svg'
+import Figma from '../../assets/experience/figma.svg'
 
 const icons = [
     {
@@ -46,6 +47,10 @@ const icons = [
     {
         logo: Css,
         tooltip: 'CSS',
+    },
+    {
+        logo: Figma,
+        tooltip: 'Figma',
     },
     {
         logo: Photoshop,
@@ -98,7 +103,7 @@ const Experience = () => {
         return (
             <div className='has-tooltip flex justify-center' key={icon.tooltip}>
                 <span className='tooltip -mt-12 bg-primary rounded-md p-1 px-2 justify-center'>{icon.tooltip}</span>
-                <img className='hover:animate-zooming rounded-lg' src={icon.logo} alt="" width={80} />
+                <img className='hover:animate-zooming rounded-lg h-20' src={icon.logo} alt={icon.tooltip + ' logo'} />
             </div>
         )
     })
